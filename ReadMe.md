@@ -1,4 +1,3 @@
-```markdown
 # TypeScript Code Explanation
 
 This repository contains two TypeScript files: `main.ts` and `PerfDecorators.ts`.
@@ -36,5 +35,3 @@ Here's what each part does:
 - `logTiming(constructor)`: This decorator function extends the constructor of the decorated class to add a `__timings` property and a `printTimings` method. The `printTimings` method logs the contents of `__timings`.
 
 - `timing()`: This decorator function modifies the descriptor of the decorated method to measure its execution time and log it. If the method has parameters decorated with `@important`, their values are also logged.
-```
-I hope this helps! Let me know if you have any other questions.
